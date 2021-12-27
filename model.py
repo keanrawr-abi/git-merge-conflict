@@ -4,7 +4,7 @@ from random import randint
 class MagicModel:
 
 	def train(self):
-		print('Training model...')
+		print('Training model locally...')
 		print('Bip boop bop')
 		secs = randint(1, 5)
 		sleep(secs)
